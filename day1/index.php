@@ -7,6 +7,7 @@
 $name = null;
 
 # echo "<h1>" . $name . "</h1>"; 
+# echo "<h1>" . $name . "</h1>"; 
 /**
  * 
  */
@@ -204,12 +205,12 @@ $person['age'] = 20;
 //     echo $key . ": " . $value . "<br>";
 // }
 
-// $fun = function ($name){
-//     $msg = "hello, " . $name;
-//     echo $msg;
-// }
+$fun = function ($name){
+    $msg = "hello, " . $name;
+    echo $msg;
+};
 
-//  fun("eman");
+ $fun("eman");
 
 // $list1 = [1,2,3,1];
 // $list2 = [2,3,1];
