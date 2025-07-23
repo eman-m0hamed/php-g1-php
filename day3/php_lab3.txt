@@ -6,5 +6,6 @@
 - if sumbitted data is valid store it in database and redirect to the profile page.
 - create profile update page.
 - Only access profile page and update profile page when user is login else redirect to login form with error message.
+- create logout button in profile page logout from website and redirect to login page.
 - NOTE: doesn't submit any form without validate all fields.
 
