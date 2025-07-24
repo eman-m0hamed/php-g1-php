@@ -14,10 +14,12 @@ if(isset($_POST['login_submit'])){
         exit;
     }
 
-    $connection = new PDO("mysql:host=localhost;dbname=php-g1", "root", "");
+
 
     // $password = md5($password);
 
+// include("./connection.php");
+require("./connection.php");
 
     // $sql = "select * from users where email='$email' and password='$password'";
     $sql = "select * from users where email='$email'";
